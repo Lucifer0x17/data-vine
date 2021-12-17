@@ -12,11 +12,6 @@ from deltah2h import *
 
 app = Flask(__name__)
 cors = CORS(app)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://dehlyjxkdghtfr:a2efc9b2d880f94e76c0fe13233e9f56508f10d53f419f3262b01e72d418dad2@ec2-54-147-76-191.compute-1.amazonaws.com:5432/d4mkm9tr3rloj'
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-
-engine = create_engine(
-    'postgresql://dehlyjxkdghtfr:a2efc9b2d880f94e76c0fe13233e9f56508f10d53f419f3262b01e72d418dad2@ec2-54-147-76-191.compute-1.amazonaws.com:5432/d4mkm9tr3rloj')
 
 # order routes
 
