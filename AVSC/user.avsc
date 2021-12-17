@@ -1,0 +1,1 @@
+{"namespace": "database", "type": "record", "name": "user", "fields": [{"name": "userid", "type": "int"}, {"name": "username", "type": "string"}, {"name": "contactno", "type": "long"}, {"name": "email", "type": "string"}, {"name": "createdat", "type": "string"}, {"name": "updatedat", "type": "string"}]}

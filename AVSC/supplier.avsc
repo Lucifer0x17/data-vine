@@ -1,0 +1,1 @@
+{"namespace": "database", "type": "record", "name": "supplier", "fields": [{"name": "supplierid", "type": "int"}, {"name": "suppliername", "type": "string"}, {"name": "description", "type": "string"}, {"name": "contactno", "type": "int"}, {"name": "email", "type": "string"}, {"name": "createdat", "type": "string"}, {"name": "updatedat", "type": "string"}]}
